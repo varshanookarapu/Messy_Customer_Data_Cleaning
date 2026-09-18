@@ -6,17 +6,6 @@ This project focuses on cleaning and preparing a messy customer orders dataset u
 
 The project also includes basic feature engineering and validation checks to make the dataset more consistent and suitable for further analysis.
 
-## Objectives
-
-- Profile and understand the dataset.
-- Inspect the dataset structure, data types, and missing values.
-- Standardize column names and categorical values.
-- Identify and handle duplicate records.
-- Impute missing values using suitable approaches.
-- Standardize inconsistent formats in country, payment method, status, and return indicators.
-- Convert order dates into a consistent datetime format.
-- Create additional date-related features.
-- Identify potential inconsistencies between quantity, unit price, and total amount.
 
 ## Tools and Libraries
 
@@ -174,18 +163,6 @@ This calculation was introduced to investigate inconsistencies where the quantit
 - Standardizing categorical values improves consistency and supports reliable analysis.
 - Negative quantities require additional business context to determine whether they represent returns, corrections, or erroneous records.
 
-## Project Structure
-
-```text
-Cleaning-Messy-Customer-Data/
-│
-├── Cleaning Messy Customer Data.ipynb
-├── messy_customer_orders.csv
-├── report.html
-└── README.md
-```
-
-> File names may be adjusted depending on how the project is organized in the GitHub repository.
 
 ## Conclusion
 
